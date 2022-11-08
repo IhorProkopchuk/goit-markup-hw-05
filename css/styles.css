@@ -369,7 +369,31 @@ img {
 .about-items {
     margin-top: 50px;
     margin-right: 30px;
+}
 
+.about-descr {
+    position: relative;
+    display: flex;
+}
+
+.about-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    top: 224px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .about-main {
